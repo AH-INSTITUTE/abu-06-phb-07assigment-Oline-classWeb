@@ -1,0 +1,54 @@
+#course-info-wrapper h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.course-img img{
+    width: 100%;
+}
+.course-text-info span{
+    display: block;
+   
+}
+.course-text-info .course-rating{
+    font-size: 13px;
+    color: orange;
+    padding: 5px 0 0 0;
+}
+.course-text-info .course-price{
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+.course-text-info .couser-seller-rating{
+    font-size: 14px;
+    background-color: #f51243;
+    padding: 5px;
+    border-radius: 10px;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+    margin: 10px 0 10px 0;
+}
+.course-text-info button{
+    margin-top: 15px;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fc6107;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    display: block;
+}
+#course-info-wrapper{
+    border: 3px solid #ffa600;
+    box-sizing: border-box;
+    padding: 0 6px 6px 6px;
+    transition: all 0.5s;
+
+}
+#course-info-wrapper:hover{
+    box-shadow: 0px 0px 12px #686565;
+}

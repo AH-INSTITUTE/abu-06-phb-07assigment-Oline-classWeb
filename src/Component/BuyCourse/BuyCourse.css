@@ -1,0 +1,23 @@
+.buyCourseInfo{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #e7e5e5;
+    margin: 0 6px 5px 0;
+    border-radius: 10px;
+}
+.buyCourseInfo h3{
+    font-size: 14px;
+}
+.buyCourseImg{
+    text-align: center;
+}
+.buyCourseImg img{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 3px;
+    width: 70%;
+}
+.buyCourseText span{
+    display: block;
+}

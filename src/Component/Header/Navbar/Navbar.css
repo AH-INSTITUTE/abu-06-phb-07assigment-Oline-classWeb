@@ -1,0 +1,13 @@
+#main-navbar form{
+    margin-left: 5%;
+}
+#main-navbar form input{
+    width: 70%;
+}
+#main-navbar nav ul li a{
+    color: #fff;
+}
+#main-navbar nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
