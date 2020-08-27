@@ -18,16 +18,17 @@ function App() {
   const buyNowBtn = (courseItem) => {
     const newCourse = [...course, courseItem]
     setCourse(newCourse);
-    
+
   }
   //get total price of courseItem
-  const totalPrice = course.reduce((acc, curr) => acc + curr.price, 0);
+  let totalPrice = course.reduce((acc, curr) => acc + curr.price, 0).toFixed(2);
   return (
     <div className="App">
       <div className="header-sec">
         <Header />
       </div>
       <div className="course-wrapper container mb-5">
+        <h3>Now 0% Off All Items</h3>
         <div className="row">
           <div className="course-section col-md-9">
             <div className="row">
@@ -42,8 +43,8 @@ function App() {
               <div id="add-tot-cart" className="">
                 <button className="btn btn-success my-3 float-left" type="">Add To Cart</button>
                 <div className="d-block d-flex flex-column">
-                  <del className="pl-3">Pay ${totalPrice}</del>
-                  <strong className="pl-3">Pay ${totalPrice}</strong>
+                  <del className="pl-3">Pay $</del>
+                  <strong className="pl-3">Pay Now${totalPrice}</strong>
                 </div>
               </div>
               {

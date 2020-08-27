@@ -84,7 +84,7 @@ var OnlineClassData = [
         "email": "robertbunch@user.com",
         "img" : "https://i.ibb.co/ZH3CbDK/08.jpg",
         "soldout": 317,
-        "price" : 3.99,
+        "price" : 4.99,
         "sellertitle": "Low Seller",
         "phone": "1-770-736-808"
     },
